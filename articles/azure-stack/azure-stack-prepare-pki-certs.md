@@ -26,7 +26,7 @@ Use these steps to prepare and validate the Azure Stack PKI certificates:
 
 ### Import the certificate
 
-1.	Copy the original certificate versions [obtained from your CA of choice](azure-stack-get-pki-certs.md) into a directory on the deployment host. 
+1.	Copy the original certificate versions [obtained from your CA of choice](azure-stack-get-pki-certs.md) into a directory on the deployment host. Be sure your certificate files contain the certificate's Private Key, otherwise you will be unable to export to .pfx file format.
   > [!WARNING]
   > Do not copy files that have already been imported, exported, or altered in any way from the files provided directly by the CA.
 
